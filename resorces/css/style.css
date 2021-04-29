@@ -1,0 +1,388 @@
+/* ===================*/
+/* CUSTOM FONTS SETUP */
+/* ===================*/
+@font-face {
+    font-family: 'Gotham-Rounded';
+    src: url(../fonts/GothamRoundedBook_21018.ttf);
+}
+
+/* ===================*/
+/* BASIC SETUP */
+/* ===================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    line-height: 1.3;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+/* ===================*/
+/* HEADER SECTION */
+/* ===================*/
+
+header {
+    background: url(../images/phototime.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+
+.main-nav li a {
+    font-family: Gotham-Rounded;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 55px;
+    transition: 0.3s;
+}
+
+.main-nav li a:hover {
+    color: #c7b9b9;
+}
+
+.welcome-text-box {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-text-box h1 {
+    font-family: Gotham-Rounded;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.welcome-text-box p {
+    font-size: 20px;
+    font-family: Gotham-Rounded;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.welcome-btn {
+    display: inline-block;
+    font-family: Gotham-Rounded;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    background: #16a085;
+    padding: 14px 20px;
+    margin-top: 25px;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.welcome-btn:hover {
+    background: #128b74;
+}
+
+.welcome-social-icons {
+    position: absolute;
+    top: 90%;
+    left: 44.5%;
+}
+
+.welcome-social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.welcome-social-icons li a i {
+    color: #ffffff;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.welcome-social-icons li a i:hover {
+    color: #cccccc;
+}
+
+/* ===================*/
+/* REPRESSET SECTION */
+/* ===================*/
+
+.represser-section {
+    background: url(../images/represser-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    position: relative;
+}
+
+
+.represser {
+    max-width: 500px;
+    position: absolute;
+    top: 20%;
+}
+
+.represser h2 {
+    width: 80%;
+    font-size: 25px;
+    font-family: Gotham-Rounded;
+    letter-spacing: 2px;
+    color: #16a085;
+    margin-bottom: 50px;
+}
+
+.represser p {
+    font-size: 18px;
+    font-family: Gotham-Rounded;
+    line-height: 1.5;
+    color: #373737;
+}
+
+/* ===================*/
+/* DESIGN SECTION */
+/* ===================*/
+
+.design-section {
+    background: url(../images/design.png);
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+}
+
+.design {
+    max-width: 500px;
+    float: right;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+
+.design h2 {
+    font-size: 25px;
+    font-family: Gotham-Rounded;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    color: #16a085;
+}
+
+
+.design p {
+    font-size: 18px;
+    font-family: Gotham-Rounded;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+
+/* ===================*/
+/* IMAGES SECTION */
+/* ===================*/
+
+
+.images-section {
+    padding: 70px 0;
+    background: #f5f6f7;
+}
+
+.images-section img {
+    margin-top: 20px;
+}
+
+
+
+/* ===================*/
+/* SUBSCARIBE SECTION */
+/* ===================*/
+
+
+.subscaribe-section {
+    position: relative;
+    background: url(../images/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.subscaribe-contant {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.subscaribe-contant h2 {
+    font-family: Gotham-Rounded;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+.subscaribe-contant input {
+    font-family: Gotham-Rounded;
+    padding: 15px;
+    width: 350px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px 0px 0px 5px;
+    color: orange;
+    position: relative;
+    outline: none;
+    border-right: 1px solid #1cd6b1;
+}
+
+.subscaribe-contant input::placeholder {
+    font-weight: 700;
+}
+
+
+.subscaribe-contant i {
+    position: absolute;
+    background: #16a085;
+    top: 59%;
+    padding: 14.9px;
+    font-size: 19px;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+
+/* ===================*/
+/* DAWNLOAD SECTION */
+/* ===================*/
+
+
+.download-section {
+    padding: 70px 0;
+    background: #f5f6f7;
+    text-align: center;
+}
+
+
+.dawnload-title {
+    text-align: center;
+}
+
+.dawnload-title h2 {
+    font-family: Gotham-Rounded;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.dawnload-title p {
+    font-size: 18px;
+    width: 70%;
+    margin-left: 15%;
+    font-family: Gotham-Rounded;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Gotham-Rounded;
+    font-weight: 700;
+    color: #fff;
+    background: #1abc9c;
+    padding: 15px 50px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+.button a:hover {
+    background: #15a589;
+}
+
+.apple {
+    position: absolute;
+    top: 0%;
+    left: 86%;
+}
+
+
+/* ===================*/
+/* FOOTER SECTION */
+/* ===================*/
+
+
+footer {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.footer-contant {
+    float: left;
+}
+
+.footer-contant .list_p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Gotham-Rounded;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.footer-contant .copy-right_p {
+    font-size: 18px;
+    font-family: Gotham-Rounded;
+    font-weight: 700;
+}
+
+.footer-iamges {
+    float: right;
+}
